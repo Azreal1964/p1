@@ -33,11 +33,11 @@ def score_level():
         level = "中"
     elif score >= 60:
         level = "及格"
+score_level()
     else:
         level = "不及格"
     print("等级：", level)
 
-score_level()
 
 def is_prime():
     n = int(input("请输入整数："))
